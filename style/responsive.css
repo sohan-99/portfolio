@@ -1,0 +1,81 @@
+/* For small devices (phones) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Decrease font size for better readability on small screens */
+  }
+
+  .nav-title {
+    font-size: 30px; /* Decrease navigation title font size */
+  }
+
+  nav {
+    flex-direction: column; /* Display navigation items vertically */
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 10px 0; /* Add space between navigation items */
+  }
+
+  .banner {
+    padding: 20px; /* Decrease padding for better space utilization */
+  }
+
+  .banner .p-pic {
+    width: 100%; /* Make profile picture full width */
+    border-radius: 0; /* Remove border radius for profile picture */
+  }
+
+  .banner-c {
+    text-align: center; /* Center align text in banner */
+  }
+
+  .bannar-d {
+    font-size: 16px; /* Decrease font size for better readability */
+  }
+
+  .project-card {
+    flex-direction: column; /* Display project cards vertically */
+  }
+
+  .project-image {
+    width: 100%; /* Make project images full width */
+    border-radius: 0; /* Remove border radius for project images */
+    margin-bottom: 20px; /* Add space below project images */
+  }
+
+  .project-description {
+    width: 100%; /* Make project descriptions full width */
+  }
+
+  /* Add more specific styles as needed */
+}
+/* For small devices (phones) */
+@media only screen and (max-width: 600px) {
+  .banner1 {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Center align items */
+  }
+
+  .p-pic1 {
+    width: 100%; /* Make image full width */
+    max-width: 300px; /* Limit maximum width */
+    margin-bottom: 20px; /* Add space below image */
+  }
+
+  .banner-c1 {
+    text-align: center; /* Center align text */
+  }
+
+  .banner-g {
+    font-size: 30px; /* Decrease title font size */
+  }
+
+  .bannar-d1 {
+    font-size: 16px; /* Decrease text font size */
+  }
+}
