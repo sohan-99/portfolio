@@ -46,3 +46,39 @@ nav a{
   color: white;
   padding: 15px 35px;
 }
+/* banner */
+.banner{
+  padding: 30px 30px 0px 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .p-pic{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  
+}
+.banner-c{
+max-width: 700px;
+}
+.banner-g{
+  font-size: 45px;
+  color: white;
+  font-weight: 900;
+}
+.bannar-d{
+  font-size: 25px;
+  color:white;
+  font-weight: 600;
+}
+.btn-q{
+ background-color:  rgb(40, 28, 82);
+ display: inline;
+ margin: 10px 10px 10px 10px;
+ font-size: 25px;
+ border-radius: 50%;
+}
+.social-btn{
+  
+}
