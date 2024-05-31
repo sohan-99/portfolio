@@ -1,84 +1,117 @@
-body{
-  font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
   background-color: rgb(40, 28, 82);
 }
-.orangr-text{
-  color: #FD6E0A;
+.orangr-text {
+  color: #fd6e0a;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav-title{
+.nav-title {
   color: black;
-/* font-family: Open Sans; */
-font-size: 45px;
-/* font-style: normal; */
-font-weight: 800;
-/* line-height: normal; */
-margin: 0 80px;
+  font-size: 45px;
+  font-weight: 800;
+  margin: 0 80px;
 }
-nav >ul{
+nav > ul {
   display: flex;
-  /* align-items: ; */
   align-items: center;
 }
-nav li{
+nav li {
   list-style: none;
   margin-right: 50px;
-
 }
-nav a{
+nav a {
   text-decoration: none;
   color: white;
   font-size: 20px;
   font-weight: 500;
 }
-.btn-p{
+.btn-p {
   border-radius: 5px;
-  background: #FD6E0A;
+  background: #fd6e0a;
   border: 0;
   font-size: 20px;
-  /* font-family: normal; */
   font-weight: 700;
   color: white;
   padding: 15px 35px;
 }
 /* banner */
-.banner{
+.banner {
   padding: 30px 30px 0px 85px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.banner .p-pic{
+.banner .p-pic {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  
 }
-.banner-c{
-max-width: 700px;
+.banner-c {
+  max-width: 700px;
 }
-.banner-g{
+.banner-g {
   font-size: 45px;
   color: white;
   font-weight: 900;
 }
-.bannar-d{
+.bannar-d {
   font-size: 25px;
-  color:white;
+  color: white;
   font-weight: 600;
 }
-.btn-q{
- background-color:  rgb(40, 28, 82);
- display: inline;
- margin: 10px 10px 10px 10px;
- font-size: 25px;
- border-radius: 50%;
+.btn-q {
+  background-color: rgb(40, 28, 82);
+  display: inline;
+  margin: 10px 10px 10px 10px;
+  font-size: 25px;
+  border-radius: 50%;
 }
-.social-btn{
+/* about me */
+
+.about{
+  padding: 30px;
+  margin: 30px 0px;
+}
+.section-title{
+  color:#181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section-des{
+  color:#757575;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.banner1 {
+  padding: 30px 30px 0px 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner1 .p-pic1 {
+  width: 400px;
+  height: 300px;
   
+  padding-top: 90px;
+}
+.banner-c1 {
+  max-width: 600px;
+}
+.banner-g {
+  font-size: 45px;
+  color: white;
+  font-weight: 900;
+}
+.bannar-d1 {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
 }
